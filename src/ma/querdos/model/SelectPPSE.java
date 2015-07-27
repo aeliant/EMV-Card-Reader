@@ -46,8 +46,6 @@ public class SelectPPSE {
             if (responseMessage.equals("NULL"))
                 return null;
 
-            
-
             isoDep.close();
 
             return getStatus();
